@@ -274,7 +274,7 @@ enum FixType {
 message Battery {
     float voltage_v = 1 [(mavsdk.options.default_value)="NaN"]; // Voltage in volts
     float remaining_percent = 2 [(mavsdk.options.default_value)="NaN"]; // Estimated battery remaining (range: 0.0 to 1.0)
-    float current = 3 [(mavsdk.options.default_value)="NaN"]; // Current in amps
+    float current = 4 [(mavsdk.options.default_value)="NaN"]; // Current in amps
 }
 
 // Maps to MAV_VTOL_STATE
